@@ -41,5 +41,7 @@ function plotarResultados(data) {
 }
 
 window.onload = function () {
-    getClima();
+   //getClima();
+   let data = JSON.parse(localStorage.clima);
+   plotarResultados(data);
 };
